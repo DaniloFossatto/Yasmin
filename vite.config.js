@@ -6,4 +6,9 @@ export default defineConfig({
   plugins: [
     react(),
     tailwindcss()],
+
+     base: "/Yasmin/",
+  build: {
+    outDir: "docs",
+  },
 })
